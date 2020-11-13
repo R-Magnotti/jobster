@@ -1,0 +1,32 @@
+<h3 style="line-height: 1.15;font-size: 4rem;"> Jobster </h3>
+<div class="section">
+    <img style="height: 10em;border-color: black;border-radius: 10px;border: 1px solid #C8C8C8;" src="/mascot.png" alt="lobster" className="slogo" rel="stylesheet" href="/public/css/style.css"/>
+    <p class="lead">
+        Match with the perfect employer/employee from the comfort of your home!
+    </p>
+</div>
+<div class="divider"></div>
+<div class="section">
+    <div class="row">
+        <form action="/homefeed" method="POST" enctype="multipart/form-data" class="col s12">
+        <div class="row">
+            <div class="input-field col s12">
+            <input id="email" type="email" class="validate" name="email">
+            <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+            <input id="password" type="password" class="validate" name="password">
+            <label for="password">Password</label>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Log in" class="btn">
+            <a href="/homefeed" class="btn red darken-1">Cancel</a>
+        </div>
+        </form>
+    </div>
+</div>
+
+
